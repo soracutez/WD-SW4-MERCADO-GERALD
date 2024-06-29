@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.header-hero {
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    margin-left: 50px;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+    transform-origin: left;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.main-page-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-content {
+    color: black;
+}
+
+.main-hero {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page-hero1 {
+    width: 33.33%;
+    position: relative;
+}
+
+.page-hero1 img {
+    height: 700px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0px;
+}
+
+
+.page-hero1:hover img {
+    animation: scaleUp 0.3s forwards;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.page-hero1 img:not(:hover) {
+    animation: scaleDown 0.3s forwards;
+}
+
+@keyframes scaleDown {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.page-hero2 {
+    width: 33.33%;
+}
+
+.page-hero2 img {
+    height: 700px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.page-hero2:hover img {
+    animation: scaleUp 0.3s forwards;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.page-hero2 img:not(:hover) {
+    animation: scaleDown 0.3s forwards;
+}
+
+@keyframes scaleDown {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.page-hero3 {
+    width: 33.33%;
+}
+
+.page-hero3 img {
+    height: 700px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.page-hero3:hover img {
+    animation: scaleUp 0.3s forwards;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.page-hero3 img:not(:hover) {
+    animation: scaleDown 0.3s forwards;
+}
+
+@keyframes scaleDown {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

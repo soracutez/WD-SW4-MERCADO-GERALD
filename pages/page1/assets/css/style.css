@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background:url("./../../../../assets/img/image-two.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-hero {
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    margin-left: 50px;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+    transform-origin: left;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.main-hero {
+    margin: 115px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-title {
+    width: 200px;
+}
+
+.page-title h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.page-title h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.page-title h4 a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-title h4 a:hover {
+    color: darkred;
+}
+
+.page-subtitle {
+    width: 200px;
+}
+
+.page-subtitle h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.page-subtitle h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.page-subtitle h4 a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-subtitle h4 a:hover {
+    color: darkred;
+}
+
+.f1-gif h1 {
+    font-family: "Stick No Bills", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+
+.f1-gif h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: white;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.f1-gif img{
+    border: 2px solid white;
+    border-radius: 1px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+.watch-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yt-description h5 {
+    margin-top: 15px;
+    margin-left: 280px;
+}
+
+.nf-description h5 {
+    margin-top: 15px;
+    margin-right: 310px;
+}
+
+.yt-description a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(169, 169, 169, .4);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nf-description a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(169, 169, 169, .4);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.yt-description a:hover {
+    background-color: red;
+    color:white;
+}
+
+.nf-description a:hover {
+    background-color: red;
+    color:white;
+}
