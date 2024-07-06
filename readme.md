@@ -67,7 +67,9 @@ Guiding Question:
 - What are key components
   > The key components that I used are Multi-page website/Single-page website, transactional and hover animations.
 - What technology used and how it is used
-  > I used HTML, CSS and Boostrap to create this feature layout website.
+  > The technologies used to create this feature website are HTML, CSS and Bootstrap. HTML for the structure of the website. CSS for the designs and animations of the website. Bootstrap for the icons incorporated in the website.
+
+
   
 ### Key Components
 <!-- TODO: List of Key Components -->
