@@ -35,7 +35,7 @@
       <a href="#resources">Resources</a>
     </li>
     <li>
-      <a href="deployment-link">Deployment Link</a>
+      <a href="#deployment-link">Deployment Link</a>
     </li>
   </ol>
 </details>
