@@ -61,22 +61,24 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+  > The project is about creating and designing various website feature layouts.
 - Whats the purpose
+  > The purpose of this project is to showcase our creativity on designing a website feature layout.
 - What are key components
+  > The key components that I used are Multi-page website/Single-page website, transactional and hover animations.
 - What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
 - Transactional
+- Hover Animations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,4 +119,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Hover Animation | Box animation when hovered | https://www.dota2.com/home |
