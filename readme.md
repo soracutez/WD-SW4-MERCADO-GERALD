@@ -68,9 +68,7 @@ Guiding Question:
   > The key components that I used are Multi-page website/Single-page website, transactional and hover animations.
 - What technology used and how it is used
   > The technologies used to create this feature website are HTML, CSS and Bootstrap. HTML for the structure of the website. CSS for the designs and animations of the website. Bootstrap for the icons incorporated in the website.
-
-
-  
+ 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
@@ -84,43 +82,12 @@ Guiding Question:
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![BOOTSTRAP](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## Rules, Practices and Principles
-1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
-2. Do not rename any .html files; always use `index.html` as the filename.
-3. Place Files in their respective folders.
-4. All file naming are in camel case.
-   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
-   - ex.: buttonAnimatedStyle.css
-5. Use only `External CSS`.
-6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
-7. File Structure to follow below.
-
-```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
-└─ readme.md
-```
-
 ## Resources
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
 | Hover Animation | Box animation when hovered | https://www.dota2.com/home |
+
+## Deployment Link
+(https://soracutez.github.io/WD-SW4-MERCADO-GERALD/index.html)
